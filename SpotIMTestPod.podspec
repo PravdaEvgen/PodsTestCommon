@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 # the Pre-Compiled Framework:
   s.source          = { :http => 'https://github.com/PravdaEvgen/PodsTestCommon/blob/master/Framework/Spot_IM_Core.framework.zip?raw=true' }
   s.ios.vendored_frameworks = 'Spot_IM_Core.framework'
-  s.dependency 'Alamofire', '~> 4.8.2'
+  #s.dependency 'Alamofire', '~> 4.8.2'
   s.dependency 'Google-Mobile-Ads-SDK'
   
 end
