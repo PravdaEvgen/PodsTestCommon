@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.author          = { 'Itay Dressler' => 'itay.d@spot.im' }
   s.platform        = :ios
   s.ios.deployment_target = '9.0'
-
+  
 # the Pre-Compiled Framework:
-  s.source          = { :http => 'https://github.com/PravdaEvgen/PodsTestCommon/blob/master/Framework/Spot_IM_Core.framework.zip' }
+  s.source          = { :http => 'https://github.com/PravdaEvgen/PodsTestCommon/blob/master/Framework/Spot_IM_Core.framework.zip?raw=true' }
   s.ios.vendored_frameworks = 'Spot_IM_Core.framework'
   s.dependency 'Alamofire', '~> 4.8.2'
   s.dependency 'Google-Mobile-Ads-SDK'
