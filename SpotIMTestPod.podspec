@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpotIMTestPod'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'This SDK allows you to integrate SpotIM into your iOS app. Test one pod'
   s.description      = 'Spot.IM SDK provides an easy integration. Test one pod Spot.IM SDK provides an easy integration. Spot.IM SDK provides an easy integration.'
   s.homepage        = "http://www.spot.im"
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 # the Pre-Compiled Framework:
   s.source          = { :http => 'https://github.com/PravdaEvgen/PodsTestCommon/blob/master/Framework/Spot_IM_Core.framework.zip?raw=true' }
   s.ios.vendored_frameworks = 'Spot_IM_Core.framework'
-  s.dependency 'Alamofire', '~> 4.8.2'
-  s.dependency 'Google-Mobile-Ads-SDK'
+  #s.dependency 'Alamofire', '~> 4.8.2'
+  #s.dependency 'Google-Mobile-Ads-SDK'
   
 end
