@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpotIMTestPod'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'This SDK allows you to integrate SpotIM into your iOS app. Test one pod'
   s.description      = 'Spot.IM SDK provides an easy integration. Test one pod Spot.IM SDK provides an easy integration. Spot.IM SDK provides an easy integration.'
   s.homepage        = "http://www.spot.im"
